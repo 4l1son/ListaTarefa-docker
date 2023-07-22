@@ -99,20 +99,28 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
+          title: 'Filtro',
+          to: '/filtro'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Tabela',
+          to: '/tabelatarefa'
+        },
+        {
+          icon:'mdi-account-plus',
+          title:'Cadastro',
+          to:'/cadastro'
         }
+
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Lista de tarefas'
     }
   }
 }
 </script>
+
+
