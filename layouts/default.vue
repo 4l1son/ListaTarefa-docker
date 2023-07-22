@@ -100,18 +100,14 @@ export default {
         {
           icon: 'mdi-apps',
           title: 'Filtro',
-          to: '/filtro'
+          to: '/ListaTarefas'
         },
         {
           icon: 'mdi-chart-bubble',
           title: 'Tabela',
           to: '/tabelatarefa'
         },
-        {
-          icon:'mdi-account-plus',
-          title:'Cadastro',
-          to:'/cadastro'
-        }
+        
 
       ],
       miniVariant: false,
